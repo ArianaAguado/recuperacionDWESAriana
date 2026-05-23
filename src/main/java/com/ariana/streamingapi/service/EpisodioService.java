@@ -11,6 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+@Service
+@Transactional
 public class EpisodioService {
     private final EpisodioRepository episodioRepository;
     private final SerieRepository serieRepository;

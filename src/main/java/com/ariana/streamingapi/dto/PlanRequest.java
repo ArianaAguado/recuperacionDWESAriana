@@ -24,6 +24,6 @@ public record PlanRequest(
         @Positive(message = "Las pantallas simultaneas deben ser un numero positivo")
         Integer pantallasSimultaneas,
 
-        boolean activo
+        Boolean activo
         )
 {}

@@ -14,7 +14,7 @@ public class PlanMapper {
                 .precioMensual(request.precioMensual())
                 .calidadMaxima(request.calidadMaxima())
                 .pantallasSimultaneas(request.pantallasSimultaneas())
-                .activo(request.activo())
+                .activo(request.activo() != null ? request.activo() : true)
                 .build();
     }
 
